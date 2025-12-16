@@ -1,0 +1,96 @@
+:root {
+  --bg: #0b0f1a;
+  --bg-soft: #121628;
+  --text: #e6e9f0;
+  --accent: #4f7cff;
+  --muted: #93a0b9;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background: var(--bg-soft) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.nav-link,
+.navbar-brand {
+  color: var(--text) !important;
+}
+
+.hero {
+  padding: 80px 0;
+  background: linear-gradient(
+    180deg,
+    rgba(79, 124, 255, 0.15),
+    rgba(0, 0, 0, 0)
+  );
+  text-align: center;
+}
+
+.hero-title {
+  font-family: Montserrat, Inter, sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.hero-sub {
+  color: var(--muted);
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.card {
+  background: var(--bg-soft);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text);
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-outline-light {
+  border-color: var(--text);
+  color: var(--text);
+}
+
+.footer {
+  background: var(--bg-soft);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--muted);
+  padding: 24px 0;
+  margin-top: 40px;
+}
+
+.form-control,
+.form-select {
+  background: #0f1425;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text);
+}
+
+.form-control::placeholder {
+  color: #7d8aa7;
+}
