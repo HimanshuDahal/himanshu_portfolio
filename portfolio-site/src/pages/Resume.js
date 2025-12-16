@@ -13,7 +13,7 @@ function Resume() {
         title="Resume"
         width="100%"
         height="600px"
-        style={{ border: "1px solid #ccc" }}
+        className="resume-frame"
       />
     </div>
   );

@@ -94,3 +94,11 @@ a:hover {
 .form-control::placeholder {
   color: #7d8aa7;
 }
+
+.resume-frame {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  background: #0f1425;
+  margin-top: 20px;
+}
